@@ -1,4 +1,4 @@
-let home = 0
+let home = 0 
 let guest = 0
 
 let homeScore = document.getElementById("sum-home")
@@ -9,17 +9,17 @@ let guestScore = document.getElementById("sum-guest")
 
 function oneHome() {
     home += 1
-    homeScore.innerText = home
+    homeScore.innerText = home %=100
 }
 
 function twoHome() {
     home += 2
-    homeScore.innerText = home
+    homeScore.innerText = home %=100
 }
 
 function threeHome() {
     home += 3
-    homeScore.innerText = home
+    homeScore.innerText = home %=100
 }
 
 
@@ -27,18 +27,18 @@ function threeHome() {
 
 function oneGuest() {
     guest += 1
-    guestScore.innerText = guest
+    guestScore.innerText = guest %=100
 }
 
 
 function twoGuest() {
     guest += 2
-    guestScore.innerText = guest
+    guestScore.innerText = guest %=100
 }
 
 
 function threeGuest() {
     guest += 3
-    guestScore.innerText = guest
+    guestScore.innerText = guest %=100
 }
 

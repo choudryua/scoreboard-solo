@@ -1,0 +1,77 @@
+@font-face {
+    font-family: timer;
+    src: url("timer.ttf");
+}
+
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+}
+
+body {
+    margin: 0;
+    width: 575px;
+    height: 385px;
+    margin: 5px auto;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;    
+    background: #1B244A;
+    box-sizing: border-box;
+    width: 575px;
+    height: 385px;
+    box-shadow: 0px 4px 4px;
+    position: relative;
+    text-align: center; 
+    border-radius: 5px;
+    
+}
+
+.zx {
+    margin-top: 100px;
+}
+
+.board {
+    border: solid 1px #080001;
+    background: #080001;
+    color: #F94F6D;
+    width: 155px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: timer;
+    position: relative;
+   }
+
+button {
+    background: #1B244A;
+    width: 45px;
+    height: 45px;
+    margin: 10px 8px;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 18px;
+    line-height: 28px;
+    border: 0px;
+    border-radius: 3px;
+    border:2px solid #9AABD8;
+    font-family: timer;
+    color: #9AABD8;
+    
+}
+
+#reset {
+ 
+}
